@@ -1,0 +1,6 @@
+@InstaMenu.APIs_HostAddress = http://localhost:5170
+
+GET {{InstaMenu.APIs_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaMenu.APIs", "InstaMenu.APIs\InstaMenu.APIs.csproj", "{012A0B13-0291-460E-9D89-F08C2762BEA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaMenu.Domain", "InstaMenu.Domain\InstaMenu.Domain.csproj", "{CF346500-A5C8-46EB-8CCB-AB2D00BD8179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaMenu.Application", "InstaMenu.Application\InstaMenu.Application.csproj", "{ACDC261E-3631-40C6-8AB4-ED8998F3A3D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaMenu.Infrastructure", "InstaMenu.Infrastructure\InstaMenu.Infrastructure.csproj", "{2EEC455D-FA2B-4294-8C04-5EB530B43FD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaMenu.Persistence", "InstaMenu.Persistence\InstaMenu.Persistence.csproj", "{B6012BAA-9405-451C-A298-8816210A06D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaMenu.Shared", "InstaMenu.Shared\InstaMenu.Shared.csproj", "{5EE14FEA-382A-48EF-BA86-0CB0F3729A7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{012A0B13-0291-460E-9D89-F08C2762BEA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012A0B13-0291-460E-9D89-F08C2762BEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012A0B13-0291-460E-9D89-F08C2762BEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012A0B13-0291-460E-9D89-F08C2762BEA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF346500-A5C8-46EB-8CCB-AB2D00BD8179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF346500-A5C8-46EB-8CCB-AB2D00BD8179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF346500-A5C8-46EB-8CCB-AB2D00BD8179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF346500-A5C8-46EB-8CCB-AB2D00BD8179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACDC261E-3631-40C6-8AB4-ED8998F3A3D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDC261E-3631-40C6-8AB4-ED8998F3A3D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDC261E-3631-40C6-8AB4-ED8998F3A3D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDC261E-3631-40C6-8AB4-ED8998F3A3D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EEC455D-FA2B-4294-8C04-5EB530B43FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EEC455D-FA2B-4294-8C04-5EB530B43FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EEC455D-FA2B-4294-8C04-5EB530B43FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EEC455D-FA2B-4294-8C04-5EB530B43FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6012BAA-9405-451C-A298-8816210A06D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6012BAA-9405-451C-A298-8816210A06D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6012BAA-9405-451C-A298-8816210A06D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6012BAA-9405-451C-A298-8816210A06D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE14FEA-382A-48EF-BA86-0CB0F3729A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE14FEA-382A-48EF-BA86-0CB0F3729A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE14FEA-382A-48EF-BA86-0CB0F3729A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE14FEA-382A-48EF-BA86-0CB0F3729A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D88F57D7-A802-48A1-8A1E-6332B6BB4B8A}
+	EndGlobalSection
+EndGlobal
