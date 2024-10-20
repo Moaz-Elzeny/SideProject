@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace Etqaan.Domain.Entities.Auth
+namespace InstaMenu.Domain.Entities.Auth
 {
     public class AppUserClaim : IdentityUserClaim<string>
     {
