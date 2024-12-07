@@ -1,4 +1,6 @@
-﻿namespace InstaMenu.Domain.Entities
+﻿using InstaMenu.Domain.Entities.Auth;
+
+namespace InstaMenu.Domain.Entities
 {
     public class Restaurant : BaseEntity
     {
@@ -15,5 +17,7 @@
         public float DeliveryFeePerKilometer { get; set; }
         public DateTime CreatedAt { get; set; }
         public int VisitCount { get; set; }
+
+        public ICollection<AppUser> AppUsers { get; set; }
     }
 }
